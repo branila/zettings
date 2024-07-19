@@ -1,0 +1,10 @@
+{
+  "name": "branify",
+  "version": "0.0.4",
+  "authors": ["branilaa <branila.it>"],
+  "description": "Branila's dark minimalist zed theme",
+  "repository": "https://github.com/branilaa/branify-zed",
+  "themes": {
+    "branify": "themes/branify.json"
+  }
+}
