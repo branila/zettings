@@ -1,0 +1,41 @@
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      // F1 doesn't work on my wireless keyboard
+      "alt-p": "command_palette::Toggle",
+
+      // Opens the terminal panel and focuses it
+      "alt-t": "terminal_panel::ToggleFocus",
+
+      // Spawns the run task
+      "alt-r": [
+        "task::Spawn",
+        {
+          "task_name": "run"
+        }
+      ],
+
+      // Focuses the left pane
+      "alt-e": "project_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      // Closes the terminal panel
+      "alt-t": "terminal_panel::ToggleFocus",
+
+      // Opens a new terminal
+      "alt-n": "workspace::NewTerminal"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      // Better keybindings for going back and forward
+      "alt-b": "pane::GoBack",
+      "alt-f": "pane::GoForward"
+    }
+  }
+]

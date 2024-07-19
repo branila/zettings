@@ -1,0 +1,35 @@
+{
+  // Vim settings
+  "vim_mode": true,
+  "relative_line_numbers": true,
+
+  "base_keymap": "Atom",
+
+  "theme": "msun-dark-nobold",
+
+  // Font settings
+  "ui_font_size": 14,
+  "buffer_font_size": 14,
+  "buffer_line_height": "comfortable",
+  "ui_font_family": "JetBrains Mono NL",
+  "buffer_font_family": "JetBrains Mono NL",
+  "terminal": {
+    "font_size": 14,
+    "line_height": "comfortable"
+  },
+  "project_panel": {
+    "folder_icons": false
+  },
+
+  "cursor_blink": false,
+
+  // Language specific settings
+  "languages": {
+    "Rust": {
+      "show_inline_completions": true
+    },
+    "JavaScript": {
+      "format_on_save": "off"
+    }
+  }
+}
