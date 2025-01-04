@@ -1,11 +1,21 @@
 {
+  "show_inline_completions": true,
+
+  "assistant": {
+    "default_model": {
+      "provider": "openai",
+      "model": "gpt-3.5-turbo"
+    },
+    "version": "2"
+  },
+
   // Vim settings
   "vim_mode": true,
   "relative_line_numbers": true,
 
   "base_keymap": "Atom",
 
-  "theme": "msun-dark-nobold",
+  "theme": "One Dark - Darkened",
 
   // Font settings
   "ui_font_size": 14,
@@ -18,17 +28,32 @@
     "line_height": "comfortable"
   },
   "project_panel": {
-    "folder_icons": false
+    "folder_icons": true
   },
 
   "cursor_blink": false,
 
   // Language specific settings
   "languages": {
+    "C++": {
+      "show_inline_completions": true
+    },
+    "Go": {
+      "show_inline_completions": true
+    },
     "Rust": {
       "show_inline_completions": true
     },
     "JavaScript": {
+      "format_on_save": "off"
+    },
+    "TypeScript": {
+      "format_on_save": "off"
+    },
+    "PHP": {
+      "format_on_save": "off"
+    },
+    "Svelte": {
       "format_on_save": "off"
     }
   }
